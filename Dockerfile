@@ -8,6 +8,6 @@ RUN apt-get update -y \
   && docker-php-ext-install mcrypt \
   && docker-php-ext-install mysqli \
   && docker-php-ext-install soap \	
-  && docker-php-ext-install pdo pdo_mysql 
+  && docker-php-ext-install pdo_mysql 
 
 RUN a2enmod rewrite
