@@ -13,3 +13,5 @@ RUN apt-get update -y \
   && docker-php-ext-install pdo pdo_mysql 
 
 RUN a2enmod rewrite
+
+# rem
